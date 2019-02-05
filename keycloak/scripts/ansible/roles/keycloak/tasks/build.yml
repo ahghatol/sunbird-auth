@@ -1,4 +1,4 @@
-- name: ansible create directory with_items example
+- name: ansible create required directories
   file:
    path: "{{ item.dest }}"
    mode: "{{item.mode}}"
